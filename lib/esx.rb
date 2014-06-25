@@ -294,6 +294,7 @@ module ESX
       vms.each do |vm|
         if vm.name == name then return vm end
       end
+      puts "Es ist kaputt, es geht nicht mehr... -.-"
       nil # not found :-(
     end
 
